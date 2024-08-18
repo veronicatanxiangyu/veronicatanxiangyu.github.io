@@ -16,7 +16,7 @@ body {
 
 /* Header styles */
 header {
-  background-color: #333;
+  background-color: #388ed1;
   color: #fff;
   padding: 20px;
 }
@@ -52,13 +52,29 @@ main {
   padding: 0 20px;
 }
 
-h2, h3 {
+h2 {
+  color: #d74e26;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #006837;
   margin-top: 30px;
   margin-bottom: 10px;
 }
 
 p {
   margin-bottom: 20px;
+}
+
+a {
+  color: #fa9f1e;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f7931e;
 }
 
 /* Footer styles */
