@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
+  <title>Veronica Tan's Portfolio</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
+    <h1>Veronica Tan</h1>
     <nav>
       <ul>
         <li><a href="#">Home</a></li>
@@ -20,38 +19,39 @@
 
   <main>
     <section id="hero">
-      <h1>Welcome to My Portfolio</h1>
-      <p>Discover my work and get to know me better.</p>
-      <a href="#projects" class="cta">View My Projects</a>
+      <h2>Welcome to my Portfolio</h2>
+      <p>Explore my work and learn more about me.</p>
+      <a href="#about" class="cta">Get to Know Me</a>
     </section>
 
     <section id="about">
-      <h2>About Me</h>
-      <div class="about-content">
-        <img src="profile.jpg" alt="Profile Picture">
-        <div class="about-text">
-          <p>Hi, my name is Veronica Tan. I am a full-time student in Shanghai Jiao Tong University and a part-time photographer.</p>
-          <p>Looking forward to discovering diverse opportunities where I get to unlease my fullest potential.</p>
-        </div>
-      </div>
+      <h2>About Me</h2>
+      <img src="profile.jpg" alt="John Doe's Profile Picture">
+      <p>Hi, I am Veronica Tan. A full-time student in Shanghai Jiao Tong University and a part-time photographer. Looking forward to discovering diverse opportunities where I get to unlease my fullest potential.</p>
+      <a href="#projects" class="cta">View My Projects</a>
     </section>
 
     <section id="projects">
       <h2>My Projects</h2>
       <div class="project-grid">
-        <div class="project-card">
+        <div class="project">
           <img src="project1.jpg" alt="Project 1">
           <h3>Project 1</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <a href="#" class="project-link">Learn More</a>
+          <p>Graduation Photograph Collection</p>
+          <a href="#" class="cta">Learn More</a>
         </div>
-        <div class="project-card">
+        <div class="project">
           <img src="project2.jpg" alt="Project 2">
           <h3>Project 2</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <a href="#" class="project-link">Learn More</a>
+          <p>Nature and Street Photograph Collection</p>
+          <a href="#" class="cta">Learn More</a>
         </div>
-        <!-- Add more project cards as needed -->
+        <div class="project">
+          <img src="project3.jpg" alt="Project 3">
+          <h3>Project 3</h3>
+          <p>Old Building Photograph Collection.</p>
+          <a href="#" class="cta">Learn More</a>
+        </div>
       </div>
     </section>
 
@@ -67,7 +67,7 @@
         <label for="message">Message:</label>
         <textarea id="message" name="message" required></textarea>
 
-        <button type="submit">Send Message</button>
+        <button type="submit" class="cta">Send Message</button>
       </form>
     </section>
   </main>
@@ -75,7 +75,5 @@
   <footer>
     <p>&copy; 2024 Veronica Tan Xiang Yu. All rights reserved.</p>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
