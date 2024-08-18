@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<<link rel="stylesheet" href="style.css">>
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Portfolio</title>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <body>
   <header>
-    <h1>Your Name</h1>
     <nav>
       <ul>
         <li><a href="#">Home</a></li>
@@ -20,25 +19,63 @@
   </header>
 
   <main>
+    <section id="hero">
+      <h1>Welcome to My Portfolio</h1>
+      <p>Discover my work and get to know me better.</p>
+      <a href="#projects" class="cta">View My Projects</a>
+    </section>
+
     <section id="about">
-      <h2>About Me</h2>
-      <p>Insert your bio or introduction here.</p>
+      <h2>About Me</h>
+      <div class="about-content">
+        <img src="profile.jpg" alt="Profile Picture">
+        <div class="about-text">
+          <p>Hi, my name is Veronica Tan. I am a full-time student in Shanghai Jiao Tong University and a part-time photographer.</p>
+          <p>Looking forward to discovering diverse opportunities where I get to unlease my fullest potential.</p>
+        </div>
+      </div>
     </section>
 
     <section id="projects">
       <h2>My Projects</h2>
-      <!-- Add your project details here -->
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="project1.jpg" alt="Project 1">
+          <h3>Project 1</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="#" class="project-link">Learn More</a>
+        </div>
+        <div class="project-card">
+          <img src="project2.jpg" alt="Project 2">
+          <h3>Project 2</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="#" class="project-link">Learn More</a>
+        </div>
+        <!-- Add more project cards as needed -->
+      </div>
     </section>
 
     <section id="contact">
-      <h2>Contact Me</h2>
-      <!-- Add your contact form here -->
+      <h2>Get in Touch</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2024 Your Name. All rights reserved.</p>
+    <p>&copy; 2024 Veronica Tan Xiang Yu. All rights reserved.</p>
   </footer>
-</body>>
+
+  <script src="script.js"></script>
 </body>
 </html>
